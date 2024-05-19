@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">ULesa</string>
+    <string name="title_home">Trang Chủ</string>
+    <string name="title_order">Đơn Của Bạn</string>
+    <string name="title_user">Tài Khoản</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="gmail">Gmail</string>
+    <string name="matkhau"> Mật Khẩu</string>
+    <string name="dangkitk">Bạn không có tài khoản?</string>
+    <string name="sdt">Số Điện Thoại</string>
+    <string name="ngaysinh">Ngày Sinh</string>
+    <string name="hoten">Họ Tên</string>
+    <string name="timkiem">Tìm Kiếm</string>
+    <string name="vitri">U-Lesa, Thôn Lâm Trường, Xã Minh Phú, Huyện Sóc Sơn, Hà Nội</string>
+    <string name="danhgia">4.7</string>
+    <string name="chuthich">(43 đánh giá)</string>
+    <string name="timetc">Giờ checkin/out tiêu chuẩn</string>
+    <string name="detailtimetc">Check in sau 14:00 và check out trước 11:00 ngày hôm sau</string>
+    <string name="timeday">Giờ checkin/out theo ngày</string>
+    <string name="datebook">Ngày</string>
+    <string name="detailtimeday">Check in 9:00 và check out trước 21:00 </string>
+    <string name="checkin">Hình thức checkin</string>
+    <string name="detailcheckin">Tự checkin</string>
+    <string name="timecheckin">Khung giờ hỗ trợ checkin</string>
+    <string name="detailtimecheckin">Hỗ trợ tất cả khung giờ </string>
+    <string name="datphong">Đặt phòng</string>
+    <string name="notebook">Click chọn ngày và giờ để xem giá cụ thể</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="forgot">Nhập gmail đăng ký</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="list_user"> Danh sách tài khoản khách hàng</string>
+    <string name="rules">Điều khoản và chính sách</string>
+    <string name="repass">Đổi mật khẩu</string>
+    <string name="help">Cần trợ giúp</string>
+    <string name="logout"> Đăng xuất </string>
+    <string name="edit">Cật nhập thông tin</string>
+    <string name="title_activity_mmain2">Mmain2Activity</string>
+    <string name="title_activity_main_of_main">MainOfMainActivity</string>
+    <string name="user"> Tài Khoản</string>
+    <string name="edituser">Chỉnh sửa></string>
+    <string name="deleteuser">Xóa tài khoản</string>
+    <string name="listuser"> Danh sách tài khoản người dùng</string>
+
+    <string name="room_name">Room Name</string>
+    <string name="id_order"> Mã đơn </string>
+    <string name="total_payment">Tổng tiền </string>
+    <string name="status"> Trạng thái</string>
+    <string name="Evaluate_room"> Đánh giá về phòng </string>
+
+    <string name="Confirm_payment"> Xác nhận thanh toán </string>
+    <string name="date_book"> Ngày tháng </string>
+    <string name="edit_payment"> Sửa </string>
+    <string name="time_in"> Giờ đến:  </string>
+    <string name="time_out"> Giờ đi:  </string>
+    <string name="customer"> Hành khách </string>
+    <string name="price_details"> Chi tiết giá </string>
+    <string name="price_room"> Giá phòng</string>
+    <string name="price_wc"> Phí vệ sinh</string>
+    <string name="promotion"> Khuyến mại</string>
+    <string name="cancel"> Chính sách hủy đặt</string>
+    <string name="detail_cancel">- Đặt phòng huỷ trước 7 ngày Check-in trở lên hoàn 100% ( kể cả cọc) trừ phí chuyển khoản nếu có.\n - Huỷ trước 2-7
+    ngày hoàn 50% (mất 100% nếu cọc) - Trước 1 ngày hoặc cùng ngày chúng mình không hoàn/hủy - Vừa đặt xong hủy phòng sát giờ checkin sẽ không được hoàn tiền - Đổi ngày, đổi phòng phí là 30% giá phòng (chỉ áp dụng đổi phòng trong cùng 1 chuỗi, khách vui lòng báo trước ít nhất 2 ngày checkin).</string>
+    <string name="main_rules"> CHÍNH SÁCH BẢO HIỂM RỦI RO CHO KHÁCH HÀNG CỦA ULESA </string>
+    <string name="I"> I. QUY ĐỊNH CHUNG </string>
+    <string name="muc_i.i"> 1.1. Đối tượng bảo hiểm </string>
+    <string name="detail_i.i">Bảo hiểm áp dụng cho tất cả khách hàng sử dụng nền tảng đặt phòng Ulesa. </string>
+    <string name="muc_i.ii">  1.2. Phạm vi và thời hạn</string>
+    <string name="detail_i.ii">Bảo hiểm có hiệu lực từ thời điểm khách hàng xác nhận đặt phòng thành công tại ứng dụng Ulesa đến khi kết thúc thời
+        gian lưu trú.</string>
+    <string name="II"> II. PHẠM VI TRÁCH NHIỆM CỦA ULESA </string>
+    <string name="detail_II">Khi bạn đặt phòng, Ulesa cung cấp và chịu trách nhiệm về Nền tảng – chứ không phải là cho chính Trải nghiệm đặt phòng
+        đó. Tất cả các khách hàng khi đặt phòng qua nền tảng Ulesa đồng nghĩa với việc đồng ý các điều khoản, nội quy và quy định để được đảm bảo quyền lợi cũng như trách nhiệm. </string>
+    <string name="muc_ii.i">    2.1. Khách hàng bị huỷ phòng do overbook</string>
+    <string name="muc_ii.i.i">      2.1.1. Khách hàng bị huỷ đặt phòng trước 7 ngày checkin </string>
+    <string name="detail_ii.i.i">Ulesa sẽ hỗ trợ bạn tìm phòng mới thuộc hệ thống của Ulesa với mức giá tương đương hoặc cao hơn tối đa 10%
+        giá phòng cũ (tối đa 100.000 đồng)
+
+Nếu bạn không muốn đổi sang phòng khác Ulesa sẽ hoàn lại 100% tiền phòng bạn đã thanh toán và tặng kèm 1 voucher giảm giá 10% (giảm tối đa 100.000 đồng, sử dụng cho bất kỳ đặt phòng nào của bạn tại Ulesa.com).
+    </string>
+    <string name="muc_ii.i.ii">     2.1.2. Khách hàng bị huỷ đặt phòng từ 7 ngày checkin trở xuống
+</string>
+    <string name="detail_ii.i.ii"> Ulesa sẽ hỗ trợ bạn tìm phòng mới hạng tương tự với với mức giá tương đương hoặc cao hơn. Nếu bạn không muốn đổi
+        sang phòng khác Ulesa sẽ hoàn lại 100% tiền phòng bạn đã thanh toán và chi phí bảo hiểm. Chi tiết cụ thể như sau:</string>
+
+    <string name="muc_ii.i.ii.i"> 2.1.2.1. Với khách hàng có có tổng số đơn đặt phòng tại Ulesa tính đến thời điểm hiện tại từ 1 đơn trở xuống</string>
+
+    <string name="detail_ii.i.ii.i">Ulesa sẽ hỗ trợ bạn đổi qua phòng thuộc hệ thống của Ulesa có mức giá tương đương hoặc cao hơn tối đa 10% giá
+        phòng cũ (tối đa 200.000 đồng).
+
+Nếu bạn yêu cầu huỷ phòng Ulesa sẽ hoàn lại 100% tiền phòng bạn đã thanh toán và tặng kèm một voucher giảm giá 10% (giảm tối đa 200.000 đồng, sử
+       dụng cho bất kỳ đặt phòng nào của bạn tại Ulesa.com).</string>
+
+
+    <string name="muc_ii.i.ii.ii"> 2.1.2.2.  Với khách hàng có tổng số đơn đặt phòng tại Ulesa là 2 đơn tính đến thời điểm hiện tại (các đặt
+        phòng cùng 1 thời điểm sẽ được tính là 1 đơn)</string>
+
+    <string name="detail_ii.i.ii.ii">Ulesa sẽ hỗ trợ bạn đổi qua phòng thuộc hệ thống của Ulesa có mức giá tương đương hoặc cao hơn tối đa 15% giá
+        phòng cũ (tối đa 300.000 đồng).
+
+Nếu bạn yêu cầu huỷ phòng Ulesa sẽ hoàn lại 100% tiền phòng bạn  đã thanh toán và tặng kèm một voucher giảm giá 15% (giảm tối đa 300.000 đồng, sử
+        dụng cho bất kỳ đặt phòng nào của bạn tại Ulesa ).</string>
+
+
+    <string name="muc_ii.i.ii.iii">
+     2.1.2.3. Với khách hàng có tổng số đơn đặt phòng tại Ulesa từ 3 đơn trở lên tính đến thời điểm hiện tại (các đặt phòng cùng 1 thời điểm sẽ
+        được tính là 1 đơn)</string>
+
+    <string name="detail_ii.i.ii.iii">Ulesa sẽ hỗ trợ bạn đổi qua phòng thuộc hệ thống của Ulesa có mức giá tương đương hoặc cao hơn tối đa 20% giá phòng cũ (tối đa 500.000 đồng).
+
+Nếu bạn yêu cầu huỷ phòng Ulesa sẽ hoàn lại 100% tiền phòng bạn đã thanh toán và tặng kèm một voucher giảm giá 20% (giảm tối đa 500.000 đồng, sử dụng cho bất kỳ đặt phòng nào của bạn tại Ulesa ).</string>
+    <string name="muc_ii.ii">2.2. Khách hàng không thể nhận phòng  </string>
+    <string name="detail_ii.ii"> Với khách hàng sau khi đặt phòng qua Ulesa thành công sẽ được cung cấp đầy đủ thông tin số điện thoại chủ nhà, địa
+    chỉ phòng, đường link hướng dẫn nhận phòng (nếu có). Trong trường hợp đến giờ nhận phòng (theo xác nhận đặt phòng đã đặt), khách hàng vẫn chưa
+    có thông tin nhận phòng và liên hệ chủ nhà không phản hồi hoặc không giải quyết được vấn đề, Ulesa sẽ hỗ trợ khách tìm phòng mới hạng tương tự
+        tùy thuộc vào tình trạng còn phòng với mức giá tương đương hoặc cao hơn. Nếu khách hàng không muốn đặt lại, Ulesa sẽ hoàn tiền đầy đủ cho khách (Áp dụng bảo hiểm theo chính sách số 2.1.2.3).</string>
+    <string name="muc_ii.ii.i"> 2.2.1. Quy trình phản hồi</string>
+
+    <string name="detail_ii.ii.i">Khách hàng vui lòng cung cấp lại thông tin/hình ảnh/video liên quan đến việc chưa nhận được thông tin checkin (Lịch
+     sử cuộc gọi, tin nhắn sms/zalo,..).
+
+        Liên hệ Ulesa ngay lập tức tại đây để được hỗ trợ xử lý.</string>
+    <string name="muc_ii.iii">2.3. Cơ sở vật chất phòng không đảm bảo </string>
+
+    <string name="detail_ii.iii">Ulesa luôn mong muốn mang đến trải nghiệm lưu trú trọn vẹn nhất cho khách hàng, tuy nhiên trong một số trường hợp sau khi nhận phòng khách
+    hàng gặp 1 số sự cố không mong muốn. Vì vậy ngay sau khi nhận phòng bạn cần kiểm tra phòng và báo lại ngay nếu phát hiện bất kỳ điều gì bất thường. Cụ thể như:
+
+Phòng chưa được dọn dẹp vệ sinh trước khi bạn nhận phòng
+
+Hình ảnh phòng, tiện ích trong phòng không giống mô tả
+
+Cơ sở chật chất, đồ đạc trong phòng hỏng hóc không thể sử dụng được
+
+       Trong quá trình lưu trú xảy ra tình trạng mất điện, mất nước,...</string>
+
+    <string name="muc_ii.iii.i">2.3.1.  Quy trình phản ánh chất lượng cơ sở chật chất phòng</string>
+
+    <string name="detail_ii.iii.i">Chụp ảnh/quay video vấn đề mà bạn đang gặp phải
+
+Liên hệ với Chủ nhà thông qua số điện thoại được đã được cung cấp trong xác nhận đặt phòng trong vòng 24 giờ sau khi phát hiện sự cố và mô tả vấn đề cho chủ nhà để xem chủ nhà có thể giải quyết vấn đề đó không.
+
+ Nếu Chủ nhà không thể giải quyết vấn đề hoặc không phản hồi gì cả, hãy liên hệ với Ulesa tại đây trong thời gian sớm nhất để được hỗ trợ.
+
+        Ulesa sẽ xem xét và hỗ trợ bạn tìm phương án xử lý phù hợp nhất trong vòng 24h kể từ khi nhận được khiếu nại.</string>
+    <string name="muc_ii.iii.i.i">2.3.1.1.  Khách hàng vẫn tiếp tục lưu trú tại phòng</string>
+
+    <string name="detail_ii.iii.i.i">Ulesa sẽ hỗ trợ khách liên hệ chủ nhà để xử lý vấn đề cho khách hàng trong thời gian sớm nhất trong phạm vi có
+       thể. Khách hàng và chủ nhà cũng
+        có thể tự đàm phán để đưa đến phương án hỗ trợ phù hợp nhất.</string>
+    <string name="muc_ii.iii.i.ii">2.3.1.2.  Khách hàng yêu cầu trả phòng</string>
+
+    <string name="detail_ii.iii.i.ii">Tuỳ theo tình trạng thực tế, Ulesa sẽ hỗ trợ khách hàng liên hệ chủ nhà để 2 bên có thể đàm phán và đưa ra
+        phương án xử lý phù hợp nhất.</string>
+    <string name="muc_ii.iiii">    2.4. Các trường hợp khác </string>
+    <string name="detail_ii.iiii"> Với các trường trường phát sinh khác ngoài bảo hiểm, Ulesa sẽ xem xét và toàn quyền quyết định phương án xử lý phù hợp nhất. Nếu sự việc nằm ngoài khả năng xử lý của Ulesa, các bên có thể yêu cầu cơ quan Nhà nước có thẩm quyền giải quyết sự việc theo quy định của pháp luật.
+    </string>
+    <string name="III">III. CÁC TRƯỜNG HỢP MIỄN TRÁCH </string>
+    <string name="muc_iii.i">   3.1. Hành vi bất hợp pháp</string>
+    <string name="detail_iii.i"> Ulesa sẽ không áp dụng đối với các thiệt hại phát sinh do hành vi bất hợp pháp của khách hàng.
+    </string>
+    <string name="muc_iii.ii">   3.2. Thiệt hại do khách hàng tự gây ra </string>
+    <string name="detail_iii.ii"> Ulesa sẽ không chi trả cho các thiệt hại từ hành vi thiếu an toàn do khách hàng gây ra.</string>
+    <string name="IV">  IV. THỦ TỤC HOÀN TIỀN</string>
+    <string name="detail_IV">  Các yêu cầu hoàn tiền, bồi thường sẽ được Ulesa xử lý trong vòng 24 giờ kể từ thời điểm khách hàng xác nhận yêu cầu hoàn tiền và cung cấp đầy đủ thông tin số tài khoản nhận tiền.</string>
+    <string name="V"> V. CHẤM DỨT BẢO HIỂM</string>
+    <string name="detail_V">  Bảo hiểm sẽ chấm dứt tự động khi kỳ lưu trú kết thúc, và không có trách nhiệm phát sinh sau thời điểm đó.</string>
+    <string name="VI"> VI. LIÊN HỆ </string>
+    <string name="detail_VI">  Để biết thêm chi tiết về chính sách bảo hiểm, vui lòng liên hệ:</string>
+    <string name="sdtt"> + Số điện thoại: 𝟎𝟗𝟖 𝟗𝟑𝟑 𝟏𝟐𝟑𝟒</string>
+    <string name="emaill">+ Email: trang@gmail.com</string>
+
+    <string name="contact">Liên Hệ</string>
+    <string name="detail_contact"> Nếu trong quá trình sử dụng ứng dụng có vấn đề, vui lòng liên hệ với chúng tôi theo các kênh dưới đây.
+        Giờ làm việc từ 9h - 17h các ngày trong tuần.</string>
+    <string name="Fanpage"> Fanpage: https://www.facebook.com/ULesaRetreat?mibextid=ZbWKwL </string>
+    <string name="Hotline"> Hotline: 𝟎𝟗𝟖 𝟗𝟑𝟑 𝟏𝟐𝟑𝟒 </string>
+    <string name="Email"> Email: trang@gmail.com</string>
+    <string name="update">Cập nhật</string>
+    <string name="newpas">  Nhập mật khẩu mới </string>
+    <string name="title_activity_man_main">ManMainActivity</string>
+    <string name="list_order">Danh sách Đơn </string>
+
+</resources>

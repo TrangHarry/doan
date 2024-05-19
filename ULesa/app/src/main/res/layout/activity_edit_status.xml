@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nenn"
+    tools:context=".ui.order.OrderFragment"
+    android:gravity="center"
+>
+    <LinearLayout
+        android:id="@+id/layout_edit_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/size30dp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật trạng thái đơn hàng"
+            android:textColor="@color/xanhdam"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="@dimen/size10dp"
+                android:background="@drawable/iconeddit"></ImageView>
+
+            <EditText
+                android:id="@+id/txt_edit_order"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_txt"
+                android:drawablePadding="@dimen/size10dp"
+                android:hint="Sửa lại trạng thái đơn hàng"
+                android:padding="@dimen/size10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật"
+            android:background="@drawable/btn"/>
+      </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

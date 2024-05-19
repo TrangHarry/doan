@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nenn">
+<LinearLayout
+    android:id="@+id/layout_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/size10dp">
+    <ImageView
+
+        android:layout_width="@dimen/size100dp"
+        android:layout_height="@dimen/size100dp"
+        android:background="@drawable/iconu"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/size50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/iconmail">
+        </ImageView>
+        <EditText
+            android:id="@+id/txt_gmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/custom_txt"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/gmail"
+            android:padding="@dimen/size10dp"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            tools:ignore="InvalidId"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/iconphone">
+        </ImageView>
+        <EditText
+            android:id="@+id/txt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/custom_txt"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/sdt"
+            android:padding="@dimen/size10dp"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            tools:ignore="InvalidId" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/iconcccd">
+        </ImageView>
+
+        <EditText
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/custom_txt"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/hoten"
+            android:padding="@dimen/size10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/icondate">
+        </ImageView>
+
+        <EditText
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:background="@drawable/custom_txt"
+            android:drawablePadding="@dimen/size10dp"
+            android:hint="@string/ngaysinh"
+            android:padding="@dimen/size10dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/rbtn_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/size70dp">
+
+        <RadioButton
+            android:id="@+id/rbtn_nmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/xanhdam"
+            android:text=" Nam" />
+
+        <RadioButton
+            android:id="@+id/rbtn_female"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/xanhdam"
+            android:text=" Nữ" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/size10dp">
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+            android:background="@drawable/btn"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size50dp"
+            android:text="Hủy"
+            android:background="@drawable/btn"/>
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

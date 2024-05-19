@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "336858521621",
+    "firebase_url": "https://trangdata-1e653-default-rtdb.firebaseio.com",
+    "project_id": "trangdata-1e653",
+    "storage_bucket": "trangdata-1e653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336858521621:android:79dbe2d3790b39da176e1c",
+        "android_client_info": {
+          "package_name": "com.example.appulesa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7eTQQPxaEdiE-Q3nym8Uw9CzhMWMrb3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336858521621:android:b738d78d5dcfa46e176e1c",
+        "android_client_info": {
+          "package_name": "com.example.ulesa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7eTQQPxaEdiE-Q3nym8Uw9CzhMWMrb3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

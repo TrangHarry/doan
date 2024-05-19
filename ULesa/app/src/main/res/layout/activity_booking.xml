@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/size10dp"
+    android:background="@drawable/nenn">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/size10dp"
+                android:text="@string/notebook"
+                android:textColor="@color/greyd"
+                />
+            <com.applandeo.materialcalendarview.CalendarView
+                android:id="@+id/calendarView_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/custom_layout"/>
+            <LinearLayout
+                android:id="@+id/layout_timein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chọn giờ đến "
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/image_timein"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/iconchoose"/>
+                <TextView
+                    android:id="@+id/edittxt_timein"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/size100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_timeout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="@dimen/size10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chọn giờ đi    "
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:id="@+id/image_timeout"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/iconchoose"/>
+                <TextView
+                    android:id="@+id/edittxt_timeout"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/size100dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khách tham gia"
+                    android:layout_margin="@dimen/size10dp"
+                    android:textSize="20sp"/>
+
+                <EditText
+                    android:id="@+id/text_cus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/size10dp"
+                    android:layout_marginLeft="@dimen/size100dp"
+                    android:hint="Số khách " />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnbook"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size50dp"
+                android:text="Đặt ngay"
+                android:layout_marginLeft="200dp"
+                android:background="@drawable/btn"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

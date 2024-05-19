@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/nenlogin"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Đăng Ký"
+            android:textSize="40sp"
+            android:textColor="@color/xanhdam"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/iconiduser">
+            </ImageView>
+            <EditText
+                android:id="@+id/txtid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/custom_txt"
+                android:drawablePadding="@dimen/size10dp"
+                android:hint="ID "
+                android:padding="@dimen/size10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                tools:ignore="InvalidId" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/iconmail">
+            </ImageView>
+            <EditText
+                android:id="@+id/txtgmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/custom_txt"
+                android:drawablePadding="@dimen/size10dp"
+                android:hint="@string/gmail"
+                android:padding="@dimen/size10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                tools:ignore="InvalidId" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/iconlock"></ImageView>
+
+            <EditText
+                android:id="@+id/txtpassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/custom_txt"
+                android:hint="@string/matkhau"
+                android:password="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey" />
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/rbtngender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/size10dp">
+
+            <RadioButton
+                android:id="@+id/rbtnmale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/xanhdam"
+                android:text=" Nam" />
+
+            <RadioButton
+                android:id="@+id/rbtnfemale"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/xanhdam"
+                android:text=" Nữ" />
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/rbtnfemale_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/iconcccd">
+            </ImageView>
+            <EditText
+                android:id="@+id/txtname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/custom_txt"
+                android:drawablePadding="@dimen/size10dp"
+                android:hint="@string/hoten"
+                android:padding="@dimen/size10dp"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:singleLine="true"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/iconphone"></ImageView>
+
+            <EditText
+                android:id="@+id/txtphone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/custom_txt"
+                android:drawablePadding="@dimen/size10dp"
+                android:hint="@string/sdt"
+                android:padding="@dimen/size10dp"
+                android:inputType="number"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size10dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/size10dp"
+                android:background="@drawable/icondate"></ImageView>
+
+            <EditText
+                android:id="@+id/txtdate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_txt"
+                android:layout_margin="@dimen/size10dp"
+                android:drawablePadding="@dimen/size10dp"
+                android:hint="@string/ngaysinh"
+                android:padding="@dimen/size10dp"
+                android:inputType="date"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:singleLine="true"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Đăng Ký"
+            android:background="@drawable/btn"/>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

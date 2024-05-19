@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ULesa"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.home.BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.detail.DetailRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.user.EditActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.user.HelpActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.user.RulesActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.user.RePasswordActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.home.ConfirmPaymentActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.ManMainActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.AddRoomActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.ListUserActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.ListOrderActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.order.EvaluateRoomActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.EditRoomActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.ManReviewUserActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.EditStatusActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.Manager.ManOrderDetailActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.home.PaymentSuccessActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.home.UnBookingSuccessActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.home.PaymentActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
